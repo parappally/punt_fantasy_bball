@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel(r'/Users/josiahparappally/Desktop/stats.xlsx') # change this to where you store the excel file
+df = pd.read_excel(r'/Users/josiahparappally/dev/punt_fantasy_bball/stats.xlsx') # change this to where you store the excel file
 
 # if you don't use a category in your league or you're punting it, set it's value to 0
 # I'm punting rpg, apg, spg, and bpg
@@ -79,9 +79,11 @@ for index, row in df.iterrows():
     
     player_lst.append([player_name, player_position, aggregate_score])
 
-player_lst.sort(key=lambda player: player[2]) # sorts by their aggregate score, the 2nd index
+player_lst.sort(key=lambda player: player[2], reverse=True) # sorts by their aggregate score, the 2nd index
 
-print(player_lst)
-
-# sample output: ['Anthony Davis', 'F-C', 565.0040000000001]]
-# O(n log n) time complexity, O(n) space
+f = open("output.txt", "w")
+for counter, player in enumerate(player_lst):
+    f.write(str(counter))
+    f.write(str(player))
+    f.write("\n")
+f.close()
