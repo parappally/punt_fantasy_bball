@@ -8,9 +8,15 @@ Let me know if I missed any important statistics, I tailored it to the league th
 
 Instructions:
 
-1. python3 -m venv env <br>
-2. source env/bin/activate <br>
-3. pip install -r requirements.txt <br>
-4. Modify the dictionary in main.py with the categories that your team is using <br>
-5. python main.py <br>
-6. Read the output file, and draft accordingly <br>
+1. git clone https://github.com/parappally/punt_fantasy_bball.git <br>
+2. cd punt_fantasy_bball <br>
+3. python3 -m venv env <br>
+4. source env/bin/activate <br>
+5. pip install -r requirements.txt <br>
+6. Modify the dictionary in main.py with the categories that your team is using. <br>
+For any categories you don't care about, put a hashtag at the start of the line which indicates a Python comment and my script will ignore that category <br>
+e.g. if you don't care about MPG, line 9 should look like this: <br> # "MPG": 5, # minutes per game <br>
+instead of <br>
+"MPG": 5, # minutes per game
+7. python main.py <br>
+8. Read the output file, and draft accordingly <br>
