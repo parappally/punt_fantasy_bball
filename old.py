@@ -87,3 +87,38 @@ for counter, player in enumerate(player_lst):
     f.write(str(player))
     f.write("\n")
 f.close()
+
+# for all stats
+
+    # player information
+
+    # player_name = row[0]
+    # player_team = row[1]
+    # player_position = row[2]
+    # player_age = row[3]
+
+    # player statistics
+
+    # player_mpg = row[5]
+    # player_minutes_percentage = row[6]
+    # player_usage_rate = row[7]
+    # player_turnover_rate = row[8]
+    # player_free_throw_attempted = row[9]
+    # player_free_throw_percentage = row[10]
+    # player_two_point_attempted = row[11]
+    # player_two_point_percentage= row[12]
+    # player_three_point_attempted = row[13]
+    # player_three_point_percentage = row[14]
+    # player_efg_percentage = row[15]
+    # player_ts_percentage = row[16]
+    # player_points = row[17]
+    # player_rebounds = row[18]
+    # player_trb_percentage = row[19]
+    # player_assists = row[20]
+    # player_assists_percentage = row[21]
+    # player_steals = row[22]
+    # player_blocks = row[23]
+    # player_turnovers = row[24]
+    # player_versatility_index = row[25]
+    # player_ortg = row[26]
+    # player_drtg = row[27]
