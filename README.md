@@ -1,5 +1,5 @@
 # punt_fantasy_bball
-
+Created for /r/fantasybball <br>
 ESPN and Yahoo don't have a method of ranking players based on aggregate statistics <br>
 e.g. https://fantasy.espn.com/basketball/players/projections <br>
 You can only sort players by a specific category which is not that helpful when you want to build a team around multiple statistics <br>
