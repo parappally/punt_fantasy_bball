@@ -232,7 +232,7 @@
 232 - ('JaMychal Green', 'Lac', 'F-C', 714.6709999999999)
 233 - ('Kent Bazemore', 'Por', 'G-F', 714.1790000000001)
 234 - ('Ersan Ilyasova', 'Mil', 'F', 713.2730000000001)
-235 - ('Nicolo Melli', 'Nor', 0, 708.5120000000001)
+235 - ('Nicolo Melli', 'Nor', '0', 708.5120000000001)
 236 - ('Frank Ntilikina', 'Nyk', 'G', 708.265)
 237 - ('Omari Spellman', 'Gol', 'F', 708.0720000000001)
 238 - ('Mike Scott', 'Phi', 'F', 707.606)

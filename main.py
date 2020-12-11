@@ -1,7 +1,8 @@
 import pandas as pd
 import math
 
-df = pd.read_excel(r'reg_season.xlsx') # change this to where you store the excel file
+# df = pd.read_excel(r'regular_season_stats.xlsx') # change this to where you store the excel file
+df = pd.read_csv(r'regular_season_stats.csv')
 
 categories = {
     "MPG": 5, # minutes per game
@@ -41,9 +42,9 @@ for index, row in df.iterrows():
         index = categories[key]
 
         if "TO%" == key or "TOPG" == key:
-            player_aggregate_score -= row[index]
+            player_aggregate_score -= float(row[index])
         else:
-            player_aggregate_score += row[index]
+            player_aggregate_score += float(row[index])
     
     if math.isnan(player_aggregate_score):
         continue
