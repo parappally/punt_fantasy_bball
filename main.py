@@ -1,12 +1,10 @@
 import pandas as pd
 import math
 
-df = pd.read_excel(r'all_stats.xlsx') # change this to where you store the excel file
-
-# this is a dictionary of categories, comment out the categories that are not relevant to you
+df = pd.read_excel(r'reg_season.xlsx') # change this to where you store the excel file
 
 categories = {
-    # "MPG": 5, # minutes per game
+    "MPG": 5, # minutes per game
     "MIN%": 6, # percentage of team minutes used by a player while he was on the floor
     "USG%": 7, # Usage rate calculates what percentage of team plays a player was involved in while he was on the floor
     "TO%": 8, # the number of turnovers a player commits per 100 possessions
